@@ -17,9 +17,9 @@ class Users extends Component {
     render() {
       return (
         <div>
-          {/* Change code below this line */}
+    
           <h1>Active Users: {this.state.activeUsers}</h1>
-          {/* Change code above this line */}
+     
         </div>
       );
     }
