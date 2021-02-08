@@ -9,7 +9,7 @@ class Keypress extends Component {
       this.handleEnter = this.handleEnter.bind(this);
       this.handleKeyPress = this.handleKeyPress.bind(this);
     }
-    // Change code below this line
+ 
     componentDidMount() {
         document.addEventListener("keydown", this.handleKeyPress)
     }
@@ -17,7 +17,7 @@ class Keypress extends Component {
       document.removeEventListener("keydown", this.handleKeyPress)
   
     }
-    // Change code above this line
+    
     handleEnter() {
       this.setState((state) => ({
         message: state.message + 'You pressed the enter key! '
