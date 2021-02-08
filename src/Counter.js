@@ -6,16 +6,16 @@ class Counter extends Component {
       this.state = {
         count: 0
       };
-      // Change code below this line
+      
       this.increment = this.increment.bind(this);
       this.decrement = this.decrement.bind(this);
       this.reset = this.reset.bind(this);
       this.incrementtwo = this.incrementtwo.bind(this);
       this.decrementbyfour = this.decrementbyfour.bind(this);
   
-      // Change code above this line
+      
     }
-    // Change code below this line
+    
     reset() {
       this.setState({
         count: 0
@@ -44,7 +44,7 @@ class Counter extends Component {
       }
     
   
-    // Change code above this line
+    
     render() {
       return (
         <div>
